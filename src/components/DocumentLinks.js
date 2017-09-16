@@ -7,7 +7,7 @@ const DocumentLinks = () => {
 	// console.log(WaysToGive); 
 	return(
 		<section>
-		  <Article></Article>
+		  {WaysToGive.map((elm, index) => <Article key={index} heading={elm.heading} content={elm.description} />)}
 		</section>
 		)
 }

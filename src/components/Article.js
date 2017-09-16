@@ -14,8 +14,11 @@ const Article = (props) => {
 
 		)
 
-
 }
 
 
 export default Article; 
+
+//declare prop types to be an object please. props must have
+//heading = string value and content= string value 
+//prop type is compulsory

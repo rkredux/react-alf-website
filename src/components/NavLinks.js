@@ -1,7 +1,5 @@
 import React from "react"; 
 
-
-
 const NavLinks = (props) => {
 
 	const unorderedStyle = {
@@ -21,8 +19,7 @@ const NavLinks = (props) => {
 
 }
 
-
 export default NavLinks; 
 
-//props is an array of link items to be rendered in the 
-//navigation bar. props type is compulsory. 
+//props is an array of link items(this is what it must be called) 
+//to be rendered in the navigation bar. props type is compulsory. 

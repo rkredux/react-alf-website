@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+
+
+/*------PrimaryNav Starts------*/
+
+
+nav.primary-nav img{
+  border: 2px solid;
+}
+
+
+nav.primary-nav div{
+  border: 2px solid;
+}
+
+/*------PrimaryNav Ends------*/

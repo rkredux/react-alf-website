@@ -6,17 +6,27 @@ const DocumentLinks = () => {
 
 	const sectionStyle ={
 		display: "flex", 
-		flexWrap: "wrap"
-	}
-
-	const articleStyle = {
-		border: "2px solid"
+		flexWrap: "wrap", 
+		justifyContent: "space-evenly", 
+		padding: "70px 0px", 
 	}
 
 
 	return(
 		<section style={sectionStyle}>
-		  {WaysToGive.map((elm, index) => <Article style={articleStyle} key={index} heading={elm.heading} content={elm.description} />)}
+		  {WaysToGive.map((elm, index) => 
+		  	<Article 
+		  	   key={index} 
+		  	   heading={elm.heading} 
+		  	   content={elm.description} 
+		  	   headerColor="#fa3635"
+		  	   border="2px solid" 
+		  	   textAlign= "left"
+		  	   flexBasis="40%"
+		  	   maxWidth="500px"
+		  	   letterSpacing="1px"
+		  	/>
+		   )}
 		</section>
 		)
 }

@@ -3,8 +3,8 @@ import React from "react";
 const  Testimonial= () => {
 
 	const sectionStyle={
-		border: "2px solid red",
-		background: "#a0c4db", 
+		// border: "2px solid red",
+		background: "#c3e6fc", 
 		color: "white", 
 		letterSpacing: 1,
 		paddingTop: 50, 

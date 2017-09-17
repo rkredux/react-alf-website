@@ -1,9 +1,16 @@
-import React from "react"; 
+import React from "react";
+// import Image from  
+const image = require("../Data/images/oldage.jpg"); 
 
 const Carousel = () => {
 
+	console.log(image); 
+
 	const carouselStyle ={
-		border: "2px solid"
+		// border: "2px solid", 
+		background: `url(${image})`, 
+		height: 250, 
+		marginTop: 0
 	}
 
 	return (

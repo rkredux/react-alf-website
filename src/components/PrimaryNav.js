@@ -16,7 +16,13 @@ const PrimaryNav = () => {
 	return (
 		<nav style={primaryNavStyle}>
 			<Logo/>
-			<NavLinks linkItems={linkItems}/>
+			<NavLinks 
+			   linkItems={linkItems}
+			   // backGroundColor="#c3e6fc"
+			   height="60px"
+			   // border="1px solid white"
+			   fontSize="1.2vw"	   
+			/>
 			<SearchBar/>
 		</nav>
 		)

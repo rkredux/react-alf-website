@@ -2,12 +2,8 @@ import React from "react";
 
 const Article = (props) => {
 
-	const articleStyle ={
-		border: "2px solid"
-	}
-
 	return(
-		<article style={articleStyle}>
+		<article style={props.style}>
 			<h4>{props.heading}</h4>
 			<p>{props.content}</p>
 		</article>
@@ -15,7 +11,6 @@ const Article = (props) => {
 		)
 
 }
-
 
 export default Article; 
 

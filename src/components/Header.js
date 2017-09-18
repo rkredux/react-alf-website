@@ -1,22 +1,19 @@
 import React from "react"; 
 
-
-
 const SiteHeader = () => {
 
     const headerStyle = {
-    	backgroundColor: "#222", 
-    	height: 30, 
-    	padding: 20, 
-    	color: "white", 
+    	backgroundColor: "black", 	
     	display: "flex", 
-    	justifyContent: "center", 
-    	letterSpacing: 1
+    	justifyContent: "center"  	
     }
 
     const divStyle ={
-    	fontSize: 15,
-    	padding: 10
+    	padding: 20, 
+    	color: "white",
+    	letterSpacing: 1, 
+    	textAlign: "center", 
+    	fontSize: 10 
     }
 
 	return (

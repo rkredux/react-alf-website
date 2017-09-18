@@ -13,7 +13,7 @@ const DocumentLinks = () => {
 
 
 	return(
-		<section style={sectionStyle}>
+		<section className="documentlinks-section" style={sectionStyle}>
 		  {WaysToGive.map((elm, index) => 
 		  	<Article 
 		  	   key={index} 

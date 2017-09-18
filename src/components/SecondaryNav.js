@@ -8,10 +8,10 @@ const SecondaryNav = () => {
 	return (
 		<NavLinks 
 		   linkItems={linkItems}
-		   backGroundColor="#c3e6fc"
+		   backGroundColor="#9fbfdf"
 		   height="60px"
 		   border="1px solid white"
-		   fontSize="1.2vw"	   
+		   fontSize="12px"	   
 		/>
 		)
 }

@@ -3,38 +3,39 @@ import React from "react";
 const NavLinks = (props) => {
 
 	const unorderedStyle = {
-		display: "flex", 
-		justifyContent:'center', 
-		listStyle: "none", 
-		margin: 0, 
 		paddingLeft: 0, 
-		backgroundColor: props.backGroundColor, 
-		height: props.height
+		margin: 0, 
+		listStyle: "none",
+		backgroundColor: props.backGroundColor,
+		display: "flex", 
+		// border: "2px solid"
 	}
 
 	const listStyle = {
 		display: "flex", 
-		flexDirection: "column", 
-		justifyContent: "center",  
+		justifyContent: "center", 
+		alignItems: "center",  
 		flex: 1
 	}
 
 	const linkStyle ={
 		textDecoration: "none",
 		color: "black", 
-		fontSize: props.fontSize,  
-		borderRight: props.border, 
-		padding: 5
+		fontSize: props.fontSize,
+		padding: 20, 
+		textAlign: "center", 
+		letterSpacing: 1
 	}
 
-
 	return (		
-			<ul style={unorderedStyle}>
+			<ul className="navlink" style={unorderedStyle}>
 			 {props.linkItems.map((elm) => 
-			 	<li 
+			 	<li
+			 		className="secondary-nav"
 			 		style={listStyle} 
 			 		key={elm}>
-				 		<a 
+				 		<a
+				 			className="secondary-nav-link"
 				 			style={linkStyle} 
 				 			href="#">
 				 			{elm}

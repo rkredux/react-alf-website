@@ -4,18 +4,19 @@ const  Testimonial= () => {
 
 	const sectionStyle={
 		// border: "2px solid red",
-		background: "#c3e6fc", 
+		background: "#9fbfdf", 
 		color: "white", 
 		letterSpacing: 1,
 		paddingTop: 50, 
-		paddingBottom: 25 
+		paddingBottom: 25, 
+		textAlign: "center"
 	}
 
 	const quoteStyle ={ 
 		fontSize: 20, 
 		fontStyle: "italic", 
 		lineHeight: 2, 
-		wordSpacing: 3, 
+		wordSpacing: 2, 
 		maxWidth: 600, 
 		margin: "auto", 
 		padding: 20
